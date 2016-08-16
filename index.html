@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="myApp">
+<html ng-app="HandPulledMedia">
 <head>
   <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
     <!-- Latest compiled and minified CSS -->
@@ -10,7 +10,7 @@
 
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  
+   
   <link rel="stylesheet" type="text/css" href="css/style.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
@@ -18,7 +18,7 @@
   <title>Hand Pulled Media</title>
 
 </head>
-<body>
+<body ng-controller="BodyController as ctrl">
 
   <header>
     <ul>
@@ -38,6 +38,9 @@
 
   <section id="section_2">
     <h1>Directors</h1>
+     <span ng-bind="ctrl.hello"></span>
+     <img src="https://placekitten.com/g/200/300" ng-click>
+
     <hr>
   </section>
 
