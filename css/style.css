@@ -1,3 +1,106 @@
-body {
-  
+html
+{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
 }
+
+body {
+  margin: 0;
+}
+
+
+ul {
+    list-style: none;
+}
+
+#section_1 {
+  height: 100%;
+  width: 100%;
+  background: url("../video/place_holder_video.mp4") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 360px;
+  color: white;
+}
+
+#section_1_div {
+  width: 100%;
+  height: 350px;
+  /*margin-top: 150px;*/
+  margin-right: 7em;
+  padding: 20px;
+  /*float: right;*/
+}
+
+#section_1_div ul {
+  margin-left: 60%;
+  margin-top: 2%;
+}
+
+#section_1_div li {
+  color: ;
+  display: inline;
+  padding-left: 15%;
+}
+
+#section_1 li:hover {
+  cursor: pointer;
+}
+
+video#bgvid { 
+  position: absolute;
+  /*top: 50%;*/
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+
+}
+
+#section_2 {
+  z-index: 100;
+}
+
+#section_2 ul {
+  margin-left: 5%;
+}
+
+#section_2 li {
+  display: inline;
+  padding-left: 5%;
+}
+
+#section_2 img {
+  height: 240px;
+  width: 230px;
+}
+
+#section_3 p {
+  width: 80%;
+  margin-left: 10%;
+}
+
+footer ul {
+  float: ;
+}
+
+footer li {
+  margin-bottom: 10px;
+}
+
+footer li:hover {
+  cursor: pointer;
+}
+

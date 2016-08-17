@@ -20,42 +20,127 @@
 </head>
 <body ng-controller="BodyController as ctrl">
 
-  <header>
-    <ul>
+  <section id="section_1">
+  
+  <div id="section_1_div">
+      <ul>
       <li>Directors</li>
       <li>About</li>
       <li>Contact</li>
     </ul>
-    <hr>
-  </header>
-    
+    <h1>Hand Pulled Media</h1>
+  </div>
+  <!-- http://thenewcode.com/777/Create-Fullscreen-HTML5-Page-Background-Video -->
+    <video playsinline autoplay muted loop id="bgvid">
+    <!-- <source src="polina.webm" type="video/webm"> -->
+    <source src="video/place_holder_video.mp4" type="video/mp4">
+    </video>
 
-  <section id="section_1">
-    <h1>Welcome</h1>
-    <hr>
+
   </section>
 
 
   <section id="section_2">
     <h1>Directors</h1>
-     <span ng-bind="ctrl.hello"></span>
-     <img src="https://placekitten.com/g/200/300" ng-click>
+     <!-- <span ng-bind="ctrl.hello"></span> -->
+     <ul>
+       <li><img src="http://sunfieldfarm.org/wp-content/uploads/2014/02/profile-placeholder.png" ng-click></li>
+       <li><img src="http://sunfieldfarm.org/wp-content/uploads/2014/02/profile-placeholder.png" ng-click></li>
+       <li><img src="http://sunfieldfarm.org/wp-content/uploads/2014/02/profile-placeholder.png" ng-click></li>
+     </ul>
+     
 
     <hr>
   </section>
 
   <section id="section_3">
     <h1>About</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     <hr>
   </section>
 
   <section id="section_4">
     <h1>Contact</h1>
+    <form name="htmlform" method="post" action="html_form_send.php">
+<table width="450px">
+</tr>
+<tr>
+ <td valign="top">
+  <label for="first_name">First Name *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="first_name" maxlength="50" size="30">
+ </td>
+</tr>
+ 
+<tr>
+ <td valign="top"">
+  <label for="last_name">Last Name *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="last_name" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="email">Email Address *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="email" maxlength="80" size="30">
+ </td>
+ 
+</tr>
+<tr>
+ <td valign="top">
+  <label for="telephone">Telephone Number</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="telephone" maxlength="30" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="comments">Message *</label>
+ </td>
+ <td valign="top">
+  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+ </td>
+ 
+</tr>
+<tr>
+ <td colspan="2" style="text-align:center">
+  <input type="submit" value="Submit">  
+ </td>
+</tr>
+</table>
+</form>
     <hr>
   </section>
 
   <footer>
-    <h4>This is a footer</h4>
+    <ul>
+      <li>Twitter</li>
+      <li>Facebook</li>
+      <li>Vimeo</li>
+      <li>YouTube</li>
+    </ul>
   </footer>
 </body>
 </html>
