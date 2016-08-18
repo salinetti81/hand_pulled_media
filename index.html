@@ -18,7 +18,7 @@
   <title>Hand Pulled Media</title>
 
 </head>
-<body ng-controller="BodyController as directorCtrl">
+<body>
 
   <section id="section_1">
   
@@ -41,10 +41,9 @@
 
   <section id="section_2">
     <h1>Directors</h1>
-     <!-- <span ng-bind="ctrl.hello"></span> -->
      <ul>
 
-       <li>
+       <li ng-controller="BodyController as directorCtrl">
          <img src="http://sunfieldfarm.org/wp-content/uploads/2014/02/profile-placeholder.png" ng-click="directorCtrl.showContent()">
          <div ng-class="(directorCtrl.displayContent)?'active': '' " id="director">
          <h2>Director 1</h2>
@@ -70,7 +69,7 @@
          </div>
        </li>
 
-      <li>
+      <li ng-controller="BodyController as directorCtrl">
          <img src="http://sunfieldfarm.org/wp-content/uploads/2014/02/profile-placeholder.png" ng-click="directorCtrl.showContent()">
          <div ng-class="(directorCtrl.displayContent)?'active': '' " id="director">
          <h2>Director 2</h2>
@@ -96,7 +95,7 @@
         </div>
       </li>
 
-      <li>
+      <li ng-controller="BodyController as directorCtrl">
        <img src="http://sunfieldfarm.org/wp-content/uploads/2014/02/profile-placeholder.png" ng-click="directorCtrl.showContent()">
        <div ng-class="(directorCtrl.displayContent)?'active': '' " id="director">
        <h2>Director 3</h2>
