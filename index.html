@@ -49,6 +49,7 @@
          <h2>Director 1</h2>
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
           <div class="video_container">
+            <div class="video_player"><h2>This will be a video player</h2></div>
             <video class="director_video" playsinline >
             <source src="video/place_holder_video.mp4" type="video/mp4">
             </video>
@@ -61,10 +62,10 @@
             <source src="video/place_holder_video.mp4" type="video/mp4">
             </video>
               <h5>Video 3</h5>
-            <video class="director_video" playsinline >
+        <!--     <video class="director_video" playsinline >
             <source src="video/place_holder_video.mp4" type="video/mp4">
             </video>
-              <h5>Video 4</h5>
+              <h5>Video 4</h5> -->
           </div>
          </div>
        </li>
@@ -75,6 +76,7 @@
          <h2>Director 2</h2>
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
           <div class="video_container">
+            <div class="video_player"><h2>This will be a video player</h2></div>
             <video class="director_video" playsinline >
             <source src="video/place_holder_video.mp4" type="video/mp4">
             </video>
@@ -87,10 +89,10 @@
             <source src="video/place_holder_video.mp4" type="video/mp4">
             </video>
               <h5>Video 3</h5>
-            <video class="director_video" playsinline >
+        <!--     <video class="director_video" playsinline >
             <source src="video/place_holder_video.mp4" type="video/mp4">
             </video>
-              <h5>Video 4</h5>
+              <h5>Video 4</h5> -->
           </div>
         </div>
       </li>
@@ -100,23 +102,24 @@
        <div ng-class="(directorCtrl.displayContent)?'active': '' " id="director">
        <h2>Director 3</h2>
        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-        <div class="video_container">
-          <video class="director_video" playsinline >
-          <source src="video/place_holder_video.mp4" type="video/mp4">
-          </video>
-            <h5>Video 1</h5>
-          <video class="director_video" playsinline >
-          <source src="video/place_holder_video.mp4" type="video/mp4">
-          </video>
-            <h5>Video 2</h5>
-          <video class="director_video" playsinline >
-          <source src="video/place_holder_video.mp4" type="video/mp4">
-          </video>
-            <h5>Video 3</h5>
-          <video class="director_video" playsinline >
-          <source src="video/place_holder_video.mp4" type="video/mp4">
-          </video>
-            <h5>Video 4</h5>
+          <div class="video_container">
+            <div class="video_player"><h2>This will be a video player</h2></div>
+            <video class="director_video" playsinline >
+            <source src="video/place_holder_video.mp4" type="video/mp4">
+            </video>
+              <h5>Video 1</h5>
+            <video class="director_video" playsinline >
+            <source src="video/place_holder_video.mp4" type="video/mp4">
+            </video>
+              <h5>Video 2</h5>
+            <video class="director_video" playsinline >
+            <source src="video/place_holder_video.mp4" type="video/mp4">
+            </video>
+              <h5>Video 3</h5>
+        <!--     <video class="director_video" playsinline >
+            <source src="video/place_holder_video.mp4" type="video/mp4">
+            </video>
+              <h5>Video 4</h5> -->
         </div>
        </div>
       </li>
@@ -148,63 +151,73 @@
 
 <section id="section_4">
   <h1 class="section_title">Contact</h1>
-  <form name="htmlform" method="post" action="https://formspree.io/dansalinetti@gmail.com">
-<table>
-</tr>
-<tr>
- <td valign="top">
-  <!-- <label for="first_name">First Name *</label> -->
- </td>
- <td valign="top">
-  <input placeholder="Name *" type="text" name="name" maxlength="50" size="30">
- </td>
-</tr>
- 
-<tr>
- <td valign="top"">
-  <!-- <label for="last_name">Last Name *</label> -->
- </td>
- <td valign="top">
-  <!-- <input  placeholder= "Last Name *" type="text" name="last_name" maxlength="50" size="30"> -->
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <!-- <label for="email">Email Address *</label> -->
- </td>
- <td valign="top">
-  <input placeholder="email *"  type="text" name="email" maxlength="80" size="30">
- </td>
- 
-</tr>
-<tr>
- <td valign="top">
-  <!-- <label for="telephone">Telephone Number</label> -->
- </td>
- <td valign="top">
-  <input placeholder="Telephone Number"  type="text" name="telephone" maxlength="30" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <!-- <label for="comments">Message *</label> -->
- </td>
- <td valign="top">
-  <textarea placeholder="Message *" name="comments" maxlength="1000" cols="50" rows="10"></textarea>
- </td>
- 
-</tr>
-<tr>
- <td colspan="2" style="text-align:center">
-  <input type="submit" value="Submit">  
- </td>
-</tr>
-</table>
+
+  <div id="contact_info">
+    <div id="contact_left">
+      <h4>phone: (555) 555-1234</h4>
+      <h4>email: hello@handpulledmedia.com</h4>
+    </div>
+
+  <div id="contact_right">
+    <form name="htmlform" method="post" action="https://formspree.io/dansalinetti@gmail.com">
+  <table>
+  </tr>
+  <tr>
+   <td valign="top">
+    <!-- <label for="first_name">First Name *</label> -->
+   </td>
+   <td valign="top">
+    <input placeholder="Name *" type="text" name="name" maxlength="50" size="30">
+   </td>
+  </tr>
+   
+  <tr>
+   <td valign="top"">
+    <!-- <label for="last_name">Last Name *</label> -->
+   </td>
+   <td valign="top">
+    <!-- <input  placeholder= "Last Name *" type="text" name="last_name" maxlength="50" size="30"> -->
+   </td>
+  </tr>
+  <tr>
+   <td valign="top">
+    <!-- <label for="email">Email Address *</label> -->
+   </td>
+   <td valign="top">
+    <input placeholder="email *"  type="text" name="email" maxlength="80" size="30">
+   </td>
+   
+  </tr>
+  <tr>
+   <td valign="top">
+    <!-- <label for="telephone">Telephone Number</label> -->
+   </td>
+   <td valign="top">
+    <input placeholder="Telephone Number"  type="text" name="telephone" maxlength="30" size="30">
+   </td>
+  </tr>
+  <tr>
+   <td valign="top">
+    <!-- <label for="comments">Message *</label> -->
+   </td>
+   <td valign="top">
+    <textarea placeholder="Message *" name="comments" maxlength="1000" cols="50" rows="10"></textarea>
+   </td>
+   
+  </tr>
+  <tr>
+   <td colspan="2" style="text-align:center">
+    <input type="submit" value="Submit">  
+   </td>
+  </tr>
+  </table>
 </form>
-    <hr>
+ </div>
+    
   </section>
 
   <footer>
+  <hr>
     <ul>
       <li>Twitter</li>
       <li>Facebook</li>
