@@ -16,6 +16,15 @@ ul {
     list-style: none;
 }
 
+a {
+  text-decoration: none !important;
+  color: white;
+}
+
+a:hover {
+  color:white;
+}
+
 .section_title {
   text-align: center;
   padding-bottom: 30px;
