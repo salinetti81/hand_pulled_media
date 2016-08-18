@@ -145,6 +145,20 @@ video#bgvid {
   margin-left: 10%;
 }
 
+form {
+  margin-left: 30%;
+}
+
+table {
+  width: 50%;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+
+
 footer ul {
   float: ;
 }
