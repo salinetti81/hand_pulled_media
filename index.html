@@ -24,9 +24,9 @@
   
   <div id="section_1_div">
       <ul>
-      <li>Directors</li>
-      <li>About</li>
-      <li>Contact</li>
+      <li id="directors">DIRECTORS</li>
+      <li id="about">ABOUT</li>
+      <li id="contact">CONTACT</li>
     </ul>
     <h1>Hand Pulled Media</h1>
   </div>
@@ -40,7 +40,7 @@
 
 
   <section id="section_2">
-    <h1>Directors</h1>
+    <h1 class="section_title">Directors</h1>
      <ul>
 
        <li ng-controller="BodyController as directorCtrl">
@@ -125,7 +125,7 @@
   </section>
 
   <section id="section_3">
-    <h1>About</h1>
+    <h1 class="section_title">About</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -146,9 +146,9 @@
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   </section>
 
-  <section id="section_4">
-    <h1>Contact</h1>
-    <form name="htmlform" method="post" action="html_form_send.php">
+<section id="section_4">
+  <h1 class="section_title">Contact</h1>
+  <form name="htmlform" method="post" action="html_form_send.php">
 <table width="450px">
 </tr>
 <tr>
@@ -156,7 +156,7 @@
   <label for="first_name">First Name *</label>
  </td>
  <td valign="top">
-  <input  type="text" name="first_name" maxlength="50" size="30">
+  <input type="text" name="first_name" maxlength="50" size="30">
  </td>
 </tr>
  
