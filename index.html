@@ -18,7 +18,7 @@
   <title>Hand Pulled Media</title>
 
 </head>
-<body ng-controller="BodyController as ctrl">
+<body ng-controller="BodyController as directorCtrl">
 
   <section id="section_1">
   
@@ -32,7 +32,6 @@
   </div>
   <!-- http://thenewcode.com/777/Create-Fullscreen-HTML5-Page-Background-Video -->
     <video playsinline autoplay muted loop id="bgvid">
-    <!-- <source src="polina.webm" type="video/webm"> -->
     <source src="video/place_holder_video.mp4" type="video/mp4">
     </video>
 
@@ -44,13 +43,86 @@
     <h1>Directors</h1>
      <!-- <span ng-bind="ctrl.hello"></span> -->
      <ul>
-       <li><img src="http://sunfieldfarm.org/wp-content/uploads/2014/02/profile-placeholder.png" ng-click></li>
-       <li><img src="http://sunfieldfarm.org/wp-content/uploads/2014/02/profile-placeholder.png" ng-click></li>
-       <li><img src="http://sunfieldfarm.org/wp-content/uploads/2014/02/profile-placeholder.png" ng-click></li>
-     </ul>
-     
 
-    <hr>
+       <li>
+         <img src="http://sunfieldfarm.org/wp-content/uploads/2014/02/profile-placeholder.png" ng-click="directorCtrl.showContent()">
+         <div ng-class="(directorCtrl.displayContent)?'active': '' " id="director">
+         <h2>Director 1</h2>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          <div class="video_container">
+            <video class="director_video" playsinline >
+            <source src="video/place_holder_video.mp4" type="video/mp4">
+            </video>
+              <h5>Video 1</h5>
+            <video class="director_video" playsinline >
+            <source src="video/place_holder_video.mp4" type="video/mp4">
+            </video>
+              <h5>Video 2</h5>
+            <video class="director_video" playsinline >
+            <source src="video/place_holder_video.mp4" type="video/mp4">
+            </video>
+              <h5>Video 3</h5>
+            <video class="director_video" playsinline >
+            <source src="video/place_holder_video.mp4" type="video/mp4">
+            </video>
+              <h5>Video 4</h5>
+          </div>
+         </div>
+       </li>
+
+      <li>
+         <img src="http://sunfieldfarm.org/wp-content/uploads/2014/02/profile-placeholder.png" ng-click="directorCtrl.showContent()">
+         <div ng-class="(directorCtrl.displayContent)?'active': '' " id="director">
+         <h2>Director 2</h2>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          <div class="video_container">
+            <video class="director_video" playsinline >
+            <source src="video/place_holder_video.mp4" type="video/mp4">
+            </video>
+              <h5>Video 1</h5>
+            <video class="director_video" playsinline >
+            <source src="video/place_holder_video.mp4" type="video/mp4">
+            </video>
+              <h5>Video 2</h5>
+            <video class="director_video" playsinline >
+            <source src="video/place_holder_video.mp4" type="video/mp4">
+            </video>
+              <h5>Video 3</h5>
+            <video class="director_video" playsinline >
+            <source src="video/place_holder_video.mp4" type="video/mp4">
+            </video>
+              <h5>Video 4</h5>
+          </div>
+        </div>
+      </li>
+
+      <li>
+       <img src="http://sunfieldfarm.org/wp-content/uploads/2014/02/profile-placeholder.png" ng-click="directorCtrl.showContent()">
+       <div ng-class="(directorCtrl.displayContent)?'active': '' " id="director">
+       <h2>Director 3</h2>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        <div class="video_container">
+          <video class="director_video" playsinline >
+          <source src="video/place_holder_video.mp4" type="video/mp4">
+          </video>
+            <h5>Video 1</h5>
+          <video class="director_video" playsinline >
+          <source src="video/place_holder_video.mp4" type="video/mp4">
+          </video>
+            <h5>Video 2</h5>
+          <video class="director_video" playsinline >
+          <source src="video/place_holder_video.mp4" type="video/mp4">
+          </video>
+            <h5>Video 3</h5>
+          <video class="director_video" playsinline >
+          <source src="video/place_holder_video.mp4" type="video/mp4">
+          </video>
+            <h5>Video 4</h5>
+        </div>
+       </div>
+      </li>
+
+     </ul>
   </section>
 
   <section id="section_3">
@@ -73,7 +145,6 @@
       consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <hr>
   </section>
 
   <section id="section_4">

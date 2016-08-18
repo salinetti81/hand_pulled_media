@@ -70,7 +70,7 @@ video#bgvid {
 }
 
 #section_2 {
-  z-index: 100;
+
 }
 
 #section_2 ul {
@@ -85,6 +85,31 @@ video#bgvid {
 #section_2 img {
   height: 240px;
   width: 230px;
+}
+
+#section_2 img:hover {
+  cursor: pointer;
+}
+
+#director {
+  display: none;
+}
+
+#director.active {
+  display: block;
+}
+
+.video_container {
+  /*margin-left: 10%;*/
+
+ 
+
+}
+
+.director_video  {
+  height: 250px !important;
+  width: 300px !important;
+  display: inline;
 }
 
 #section_3 p {
