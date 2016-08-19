@@ -18,6 +18,12 @@ $(document).ready(function() {
         'slow');
   });
 
+    $("#scroll_up").click(function() {
+    $('html, body').animate({
+      scrollTop: $("#section_1").offset().top},
+        'slow');
+  });
+
   });//ends document.ready
 
 var app = angular.module('HandPulledMedia', []);

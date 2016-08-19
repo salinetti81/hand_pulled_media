@@ -190,23 +190,18 @@ video#bgvid {
 }
 
 
-form {
-  /*padding-top: 50px;*/
- float: right;
- margin-right: -10%;
-}
-
-table {
-  width: 50%;
-}
-
-input {
-  margin-bottom: 20px;
-}
-
-
 footer {
   margin-bottom: 50px;
+}
+
+#scroll_up {
+  float: right;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+#scroll_up:hover {
+  cursor: pointer;
 }
 
 footer hr {
