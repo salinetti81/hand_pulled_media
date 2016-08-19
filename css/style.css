@@ -142,9 +142,18 @@ video#bgvid {
 }
 
 .video_container {
-  /*margin-left: 10%;*/
+  /*margin-left: -10%;*/
 }
 
+.embed-responsive .embed-responsive-item, .embed-responsive embed, .embed-responsive video, .embed-responsive object, .embed-responsive video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+    border: 0;
+}
 .director_video  {
   /*height: 250px !important;*/
   width: 300px !important;
