@@ -172,6 +172,7 @@ video#bgvid {
 
 #section_4 {
   margin-top: 100px;
+  height: 300px;
   /*margin-bottom: 500px;*/
 }
 
@@ -181,20 +182,13 @@ video#bgvid {
 }*/
 
 #contact_info { 
-    width: 800px;
-    margin: 0 auto;
-}
-#contact_left    {
-    width: 350px;
-    height: 400px;
-    float: left;
+  /*border-right: 1px solid gray;*/
+  width: 350px;
+  height: 100px;
+  margin: 0 11%;
+  padding-top: 10px;
 }
 
-#contact_right  {
-    width: 600px;
-    height: 400px;
-    margin-left: 190px;
-}
 
 form {
   /*padding-top: 50px;*/
