@@ -311,6 +311,15 @@ footer ul {
   float: ;
 }
 
+footer a {
+  text-decoration: none !important;
+  color: black;
+}
+
+footer a:hover {
+  color: black;
+}
+
 footer li {
   margin-bottom: 10px;
 }
