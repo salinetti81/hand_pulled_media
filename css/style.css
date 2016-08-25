@@ -31,7 +31,7 @@ a:hover {
 }
 
 #section_1 {
-  background-color: rgb(255, 254, 0);
+  background-color: black;
   height: 100%;
   width: 100%;
   background: url("../video/place_holder_video.mp4") no-repeat center center fixed;
@@ -69,6 +69,7 @@ a:hover {
 }
 
 #section_1_div li {
+  color: white;
   display: inline-block;
   padding-left: 5%;
   font-size: 1.2em;
@@ -85,7 +86,7 @@ a:hover {
 
 #section_1 li:hover:after {
   width: 100%;
-  background: black;
+  background: white;
 }
 
 #section_1 li:hover {
@@ -130,16 +131,16 @@ a:hover {
 
 #directors_list a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 #directors_list {
   margin-left: -45%;
   margin-top: 30em;
   opacity:0;  /* make things invisible upon start */
-    -webkit-animation:fadeIn  1;  /* call our keyframe named fadeIn, use animattion  and repeat it only 1 time */
-    -moz-animation:fadeIn  1;
-    animation:fadeIn  1;
+    -webkit-animation:fadeIn  .5;  /* call our keyframe named fadeIn, use animattion  and repeat it only 1 time */
+    -moz-animation:fadeIn  .5;
+    animation:fadeIn  .5;
 
     -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
     -moz-animation-fill-mode:forwards;
@@ -148,9 +149,9 @@ a:hover {
     -webkit-animation-duration:2s;
     -moz-animation-duration:2s;
     animation-duration:2s;
-  -webkit-animation-delay: 2.9s;
--moz-animation-delay: 2.9s;
-animation-delay: 2.9s;
+  -webkit-animation-delay: .5s;
+-moz-animation-delay: .5s;
+animation-delay: .5s;
 }
 
 video#bgvid { 
@@ -285,7 +286,7 @@ video#bgvid {
 
 
 footer {
-  margin-bottom: 50px;
+  /*margin-bottom: 50px;*/
 }
 
 #scroll_up {
