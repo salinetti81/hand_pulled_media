@@ -8,13 +8,13 @@ $(document).ready(function() {
 
   $("#about").click(function() {
     $('html, body').animate({
-      scrollTop: $("#section_3").offset().top},
+      scrollTop: $("#section_3").offset().top -50},
         'slow');
   });
 
   $("#contact").click(function() {
     $('html, body').animate({
-      scrollTop: $("#section_4").offset().top},
+      scrollTop: $("#section_4").offset().top -50},
         'slow');
   });
 
