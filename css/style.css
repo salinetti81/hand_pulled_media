@@ -128,6 +128,11 @@ a:hover {
     to   { opacity: 1; }
 }
 
+#directors_list a {
+  text-decoration: none;
+  color: black;
+}
+
 #directors_list {
   margin-left: -45%;
   margin-top: 30em;
