@@ -23,117 +23,27 @@
   <section id="section_1">
   
   <div id="section_1_div">
-      <ul>
-      <li id="directors">DIRECTORS</li>
+      <ul id="nav_bar">
+      <!-- <li id="directors">DIRECTORS</li> -->
       <li id="about">ABOUT</li>
       <li id="contact">CONTACT</li>
     </ul>
-    <h1>Hand Pulled Media</h1>
-  </div>
+
+    <div id="directors_list">
+      <ul>
+        <li>Ines Vogelfang</li>
+        <li>Olivia Ebertz</li>
+        <li>Carlos Ledesma</li>
+      </ul>
+    </div>
+
+  </div> <!-- end of section_1_div -->
+
   <!-- http://thenewcode.com/777/Create-Fullscreen-HTML5-Page-Background-Video -->
-    <video playsinline autoplay muted loop id="bgvid">
-    <source src="video/place_holder_video.mp4" type="video/mp4">
+    <video playsinline autoplay muted id="bgvid">
+    <source src="video/logo_lowres.mp4" type="video/mp4">
     </video>
 
-
-  </section>
-
-
-  <section id="section_2">
-    <h1 class="section_title">Directors</h1>
-     <ul>
-
-       <li ng-controller="BodyController as directorCtrl">
-         <img src="http://sunfieldfarm.org/wp-content/uploads/2014/02/profile-placeholder.png" ng-click="directorCtrl.showContent()">
-         <div ng-class="(directorCtrl.displayContent)?'active': '' " id="director">
-         <h2>Director 1</h2>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-          <div class="video_container">
-           <!-- 16:9 aspect ratio -->
-            <div class="embed-responsive embed-responsive-16by9">
-              <video class="embed-responsive-item" controls preload="none" src="video/place_holder_video.mp4"></video>
-            </div>
-            <video class="director_video" playsinline >
-            <source src="video/place_holder_video.mp4" type="video/mp4">
-            </video>
-              <h5>Video 1</h5>
-            <video class="director_video" playsinline >
-            <source src="video/place_holder_video.mp4" type="video/mp4">
-            </video>
-              <h5>Video 2</h5>
-            <video class="director_video" playsinline >
-            <source src="video/place_holder_video.mp4" type="video/mp4">
-            </video>
-              <h5>Video 3</h5>
-        <!--     <video class="director_video" playsinline >
-            <source src="video/place_holder_video.mp4" type="video/mp4">
-            </video>
-              <h5>Video 4</h5> -->
-          </div>
-         </div>
-       </li>
-
-      <li ng-controller="BodyController as directorCtrl">
-         <img src="http://sunfieldfarm.org/wp-content/uploads/2014/02/profile-placeholder.png" ng-click="directorCtrl.showContent()">
-         <div ng-class="(directorCtrl.displayContent)?'active': '' " id="director">
-         <h2>Director 2</h2>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-          <div class="video_container">
-            <!-- 16:9 aspect ratio -->
-            <div class="embed-responsive embed-responsive-16by9">
-              <video class="embed-responsive-item" controls preload="none" src="video/place_holder_video.mp4"></video>
-            </div>
-            <video class="director_video" playsinline >
-            <source src="video/place_holder_video.mp4" type="video/mp4">
-            </video>
-              <h5>Video 1</h5>
-            <video class="director_video" playsinline >
-            <source src="video/place_holder_video.mp4" type="video/mp4">
-            </video>
-              <h5>Video 2</h5>
-            <video class="director_video" playsinline >
-            <source src="video/place_holder_video.mp4" type="video/mp4">
-            </video>
-              <h5>Video 3</h5>
-        <!--     <video class="director_video" playsinline >
-            <source src="video/place_holder_video.mp4" type="video/mp4">
-            </video>
-              <h5>Video 4</h5> -->
-          </div>
-        </div>
-      </li>
-
-      <li ng-controller="BodyController as directorCtrl">
-       <img src="http://sunfieldfarm.org/wp-content/uploads/2014/02/profile-placeholder.png" ng-click="directorCtrl.showContent()">
-       <div ng-class="(directorCtrl.displayContent)?'active': '' " id="director">
-       <h2>Director 3</h2>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-          <div class="video_container">
-            <!-- 16:9 aspect ratio -->
-            <div class="embed-responsive embed-responsive-16by9">
-              <video class="embed-responsive-item" controls preload="none" src="video/place_holder_video.mp4"></video>
-            </div>
-            <video class="director_video" playsinline >
-            <source src="video/place_holder_video.mp4" type="video/mp4">
-            </video>
-              <h5>Video 1</h5>
-            <video class="director_video" playsinline >
-            <source src="video/place_holder_video.mp4" type="video/mp4">
-            </video>
-              <h5>Video 2</h5>
-            <video class="director_video" playsinline >
-            <source src="video/place_holder_video.mp4" type="video/mp4">
-            </video>
-              <h5>Video 3</h5>
-        <!--     <video class="director_video" playsinline >
-            <source src="video/place_holder_video.mp4" type="video/mp4">
-            </video>
-              <h5>Video 4</h5> -->
-        </div>
-       </div>
-      </li>
-
-     </ul>
   </section>
 
   <section id="section_3">
@@ -178,7 +88,7 @@
       <li>YouTube</li>
     </ul>
 
-    <h2 id="scroll_up">HPM</h2>
+    <img src="img/temp_logo.png" alt="HPM" id="scroll_up"> 
   </footer>
 </body>
 </html>

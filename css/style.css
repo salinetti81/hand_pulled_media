@@ -31,6 +31,7 @@ a:hover {
 }
 
 #section_1 {
+  background-color: rgb(255, 254, 0);
   height: 100%;
   width: 100%;
   background: url("../video/place_holder_video.mp4") no-repeat center center fixed;
@@ -40,8 +41,13 @@ a:hover {
   -o-background-size: cover;
   background-size: cover;
   margin-bottom: 360px;
-  color: white;
 }
+
+/*keyframes for fade in animation*/
+@-webkit-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+
 
 #section_1_div {
   width: 100%;
@@ -52,13 +58,15 @@ a:hover {
   /*float: right;*/
 }
 
+
+
 #section_1_div h1 {
   margin-top:  13%;
   margin-left: 12%;
 }
 
 #section_1_div ul {
-  margin-left: 30%;
+  margin-left: 35%;
   margin-top: 2%;
 }
 
@@ -79,11 +87,67 @@ a:hover {
 
 #section_1 li:hover:after {
   width: 100%;
-  background: white;
+  background: black;
 }
 
 #section_1 li:hover {
   cursor: pointer;
+}
+
+#nav_bar {
+   -webkit-animation: navFade ease-in 1s;  /* call our keyframe named navFade, use animattion  and repeat it only 1 time */
+    -moz-animation: navFade ease-in 1s;
+    animation: navFade ease-in 1s;
+}
+
+/*nav bar fade in animation*/
+@keyframes navFade {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes navFade {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes navFade {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes navFade {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes navFade {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+#directors_list {
+  margin-left: -45%;
+  margin-top: 30em;
+  opacity:0;  /* make things invisible upon start */
+    -webkit-animation:fadeIn  1;  /* call our keyframe named fadeIn, use animattion  and repeat it only 1 time */
+    -moz-animation:fadeIn  1;
+    animation:fadeIn  1;
+
+    -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+
+    -webkit-animation-duration:2s;
+    -moz-animation-duration:2s;
+    animation-duration:2s;
+  -webkit-animation-delay: 3s;
+-moz-animation-delay: 3s;
+animation-delay: 3s;
 }
 
 video#bgvid { 
@@ -129,6 +193,7 @@ video#bgvid {
   position: fixed;
 }
 
+
 #director {
   display: none;
 }
@@ -148,6 +213,16 @@ video#bgvid {
   margin-bottom: 50px;
   padding: 10% 20%;
   background-color: gray;
+}
+
+.embed-responsive .embed-responsive-item, .embed-responsive embed, .embed-responsive video, .embed-responsive object, .embed-responsive video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+    border: 0;
 }
 
 .video_container {
@@ -198,6 +273,9 @@ footer {
   float: right;
   margin-right: 5%;
   margin-bottom: 5%;
+  margin-top: -8em;
+  height: 180px;
+  width: 180px;
 }
 
 #scroll_up:hover {
