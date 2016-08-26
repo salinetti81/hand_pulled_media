@@ -91,6 +91,9 @@ a:hover {
 #section_1 li:hover:after {
   width: 100%;
   background: white;
+}
+
+#section_1 li:hover {
   cursor: pointer;
 }
 
@@ -366,6 +369,25 @@ footer li:hover {
     #section_1_div ul {
       margin-left: 25%;
       margin-top: 22%;
+    }
+
+    a:hover {
+      color:black;
+    }
+
+    #section_1_div li:after {
+      content: '';
+      display: block;
+      height: 2px;
+      width: 0;
+      background: transparent;
+      transition: width .5s ease, background-color .5s ease;
+    }
+
+    #section_1 li:hover:after {
+      width: 100%;
+      background: black;
+      cursor: pointer;
     }
 
     #mobile_background {
