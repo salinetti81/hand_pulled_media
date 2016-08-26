@@ -386,9 +386,9 @@ footer li:hover {
 
     #mobile_background {
       display: inline-block;
-      height: 50em;
-      width: 50em;
-      margin-left: 15%;
+      height: 60em;
+      width: 60em;
+      margin-left: 6%;
       margin-top: 5%;
     }  
 
@@ -407,6 +407,24 @@ footer li:hover {
     #directors_list li {
        display: list-item;
        padding-bottom: 20px;
+    }
+    
+    #section_4 {
+      margin-bottom: 50%;
+      margin-left: 10%;
+      text-align: 
+    }
+
+    #section_4 .section_title {
+      display: none;
+    }
+
+    #contact_left h4 {
+        font-size: 2.9em;
+    }
+
+    #contact_left span {
+      display: none;
     }
 
   }
