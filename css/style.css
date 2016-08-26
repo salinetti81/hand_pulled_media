@@ -376,18 +376,12 @@ footer li:hover {
     }
 
     #section_1_div li:after {
-      content: '';
-      display: block;
-      height: 2px;
-      width: 0;
-      background: transparent;
-      transition: width .5s ease, background-color .5s ease;
+      transition: none;
     }
 
     #section_1 li:hover:after {
-      width: 100%;
+      width: 0;
       background: black;
-      cursor: pointer;
     }
 
     #mobile_background {
