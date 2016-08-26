@@ -34,7 +34,7 @@ a:hover {
   background-color: black;
   height: 100%;
   width: 100%;
-  background: url("../video/place_holder_video.mp4") no-repeat center center fixed;
+  background: url("../video/hand_pulled_animated.mp4") no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -290,10 +290,11 @@ footer {
 }
 
 #scroll_up {
-  float: right;
-  margin-right: 5%;
+  float: ;
+  margin-left: 4em;
+  /*margin-right: 5%;*/
   margin-bottom: 5%;
-  margin-top: -8em;
+  margin-top: -10em;
   height: 180px;
   width: 180px;
 }
@@ -308,6 +309,8 @@ footer hr {
 }
 
 footer ul {
+  margin-left: 14em; 
+  margin-top: ;
   float: ;
 }
 
@@ -327,4 +330,20 @@ footer li {
 footer li:hover {
   cursor: pointer;
 }
+
+.social  {
+  height: 80px;
+  width: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
 

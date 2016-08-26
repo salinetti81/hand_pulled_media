@@ -1,9 +1,31 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+#director_nav img {
+  float: ;
+  height: 180px;
+  width: 180px;
+}
 
 #director_nav a {
   text-decoration: none;
-  color: black;
-  
+  color: white;
 }
+
+#director_nav ul {
+  list-style: none;
+  display: inline-block;
+}
+
+#director_nav li {
+  display: inline;
+  padding-left: 10%;
+  margin-left: 5%;
+  margin-top: 20%;
+}
+
 
 #director_title h2 {
   text-align: center;
