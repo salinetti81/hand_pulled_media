@@ -91,11 +91,9 @@ a:hover {
 #section_1 li:hover:after {
   width: 100%;
   background: white;
-}
-
-#section_1 li:hover {
   cursor: pointer;
 }
+
 
 #nav_bar {
    -webkit-animation: navFade ease-in 1s;  /* call our keyframe named navFade, use animattion  and repeat it only 1 time */
@@ -370,7 +368,6 @@ footer li:hover {
       margin-top: 22%;
     }
 
-
     #mobile_background {
       display: inline-block;
       height: 400px;
@@ -394,6 +391,7 @@ footer li:hover {
     #directors_list li {
        display: list-item;
     }
+
   }
 
 
