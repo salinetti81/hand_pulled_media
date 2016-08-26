@@ -12,16 +12,22 @@ $(document).ready(function() {
         'slow');
   });
 
+  // $("#contact").click(function() {
+  //   $('html, body').animate({
+  //     scrollTop: $("#section_4").offset().top -50},
+  //       'slow');
+  // });
+
   $("#contact").click(function() {
     $('html, body').animate({
-      scrollTop: $("#section_4").offset().top -50},
+      scrollTop: $("#footer").offset().top -50},
         'slow');
   });
 
-    $("#scroll_up").click(function() {
-    $('html, body').animate({
-      scrollTop: $("#section_1").offset().top},
-        'slow');
+  $("#scroll_up").click(function() {
+  $('html, body').animate({
+    scrollTop: $("#section_1").offset().top},
+      'slow');
   });
 
   $("#scroll_up").click(function() {

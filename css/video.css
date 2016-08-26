@@ -34,6 +34,10 @@ body {
   border-bottom: 2px solid white;
 }
 
+#director_title {
+  height: 100vh;
+  margin-bottom: -10%;
+}
 
 #director_title h2 {
   margin-left: 43%;
@@ -47,7 +51,6 @@ body {
 #director_title img {
   height: 300px;
   width: 300px;
-
   margin-left: 38%;
 }
 
@@ -91,6 +94,10 @@ body {
 }
 }
 
+.video_div {
+  height: 100vh;
+}
+
 /*#director_title {
   margin-left: 10%;
   margin-right: auto;
@@ -100,7 +107,8 @@ body {
 }*/
 
 .director_contact {
-  margin: 50px 15%;
+  height: 50vh;
+  margin: -5% 15%;
   text-align: center;
 
 }

@@ -256,6 +256,7 @@ video#bgvid {
 
 #section_3 {
   margin-top: 400px;
+  height: 100vh;
   /*margin-bottom: 100%;*/
 
 }
@@ -310,10 +311,14 @@ footer {
   cursor: pointer;
 }
 
-footer hr {
+footer {
+  height: 50vh;
+}
+
+/*footer hr {
   color: black;
   height: 2px;
-}
+}*/
 
 footer ul {
   margin-left: 14em; 
@@ -331,6 +336,8 @@ footer a:hover {
 }
 
 footer li {
+  display: inline;
+  padding-left: 10px;
   margin-bottom: 10px;
 }
 
