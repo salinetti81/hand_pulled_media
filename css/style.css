@@ -386,10 +386,10 @@ footer li:hover {
 
     #mobile_background {
       display: inline-block;
-      height: 400px;
-      width: 400px;
-      margin-left: 30%;
-      margin-top: 10%;
+      height: 50em;
+      width: 50em;
+      margin-left: 15%;
+      margin-top: 5%;
     }  
 
     #nav_bar {
@@ -399,13 +399,14 @@ footer li:hover {
 
     #directors_list {
       /*margin-left: -65%;*/
-      margin-top: 0em;
+      margin-top: -8em;
       font-size: 2.5em;
       text-align: center;
     }
 
     #directors_list li {
        display: list-item;
+       padding-bottom: 20px;
     }
 
   }
