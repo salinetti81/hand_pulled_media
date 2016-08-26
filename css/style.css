@@ -136,7 +136,7 @@ a:hover {
 
 #directors_list {
   margin-left: -45%;
-  margin-top: 30em;
+  margin-top: 21em;
   opacity:0;  /* make things invisible upon start */
     -webkit-animation:fadeIn  .5;  /* call our keyframe named fadeIn, use animattion  and repeat it only 1 time */
     -moz-animation:fadeIn  .5;
