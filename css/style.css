@@ -25,6 +25,10 @@ a:hover {
   color:white;
 }
 
+.mobile_only {
+  display: none;
+}
+
 .section_title {
   text-align: center;
   padding-bottom: 30px;
@@ -251,6 +255,8 @@ video#bgvid {
 
 #section_3 {
   margin-top: 400px;
+  /*margin-bottom: 100%;*/
+
 }
 
 #section_3 img {
@@ -336,6 +342,59 @@ footer li:hover {
   width: 80px;
 }
 
+/*MEDIA QUERIES*/
+
+/*SMART PHONE*/
+
+@media only screen and (max-device-width: 480px) {
+    .desktop_only {
+      display: none;
+    }
+    
+    #section_1 {
+      background-color: black;
+      height: 60em;
+      width: 100%;
+      margin-bottom: -350px;
+      /*background: url("../img/inverted_logo.jpg") no-repeat center center fixed;*/
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      /*margin-bottom: 360px;*/
+    }
+
+    #section_1_div ul {
+      margin-left: 25%;
+      margin-top: 2%;
+    }
+
+
+    #mobile_background {
+      display: inline-block;
+      height: 400px;
+      width: 400px;
+      margin-left: 30%;
+      margin-top: 10%;
+    }  
+
+    #nav_bar {
+      margin-left: -30%;
+      font-size: 2em;
+    }
+
+    #directors_list {
+      /*margin-left: -65%;*/
+      margin-top: 0em;
+      font-size: 2.5em;
+      text-align: center;
+    }
+
+    #directors_list li {
+       display: list-item;
+    }
+  }
 
 
 
