@@ -353,7 +353,7 @@ footer li:hover {
     
     #section_1 {
       background-color: black;
-      height: 60em;
+      height: 130em;
       width: 100%;
       margin-bottom: -350px;
       /*background: url("../img/inverted_logo.jpg") no-repeat center center fixed;*/
@@ -367,7 +367,7 @@ footer li:hover {
 
     #section_1_div ul {
       margin-left: 25%;
-      margin-top: 2%;
+      margin-top: 22%;
     }
 
 
