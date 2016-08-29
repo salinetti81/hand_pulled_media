@@ -247,7 +247,7 @@ video#bgvid {
 }
 
 #section_3 {
-  /*margin-top: 400px;*/
+  margin-top: 400px;
   height: 100vh;
 }
 
@@ -336,6 +336,7 @@ footer li:hover {
 /*MEDIA QUERIES*/
 
 /*SMART PHONE*/
+
 @media only screen and (max-device-width: 480px) {
   .desktop_only {
     display: none;
@@ -343,7 +344,7 @@ footer li:hover {
     
   #section_1 {
     background-color: black;
-    height: 130em;
+    height: 100vh;
     width: 100%;
     margin-bottom: -350px;
     background-size: cover;
@@ -395,10 +396,10 @@ footer li:hover {
      padding-bottom: 20px;
   }
 
-/*  #section_3 {
-    margin-top: 100%;
+  #section_3 {
+    /*margin-top: 40%;*/
   }
-  */
+  
   #section_4 {
     margin-bottom: 50%;
     margin-left: 10%;
