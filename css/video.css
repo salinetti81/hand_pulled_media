@@ -34,8 +34,8 @@ body {
 }
 
 #director_title {
-  height: 100vh;
-  margin-bottom: -10%;
+  height: ;
+  /*margin-bottom: -10%;*/
 }
 
 #director_title h2 {
@@ -43,14 +43,17 @@ body {
 }
 
 #director_title p {
-  width: 70%;
-  margin: 2em 10% 3em 15%;
+  width: 60%;
+  
+  margin: 2em 10em 3em 10em;
+  font-size: 2em;
 }
 
 #director_title img {
+  border-radius: 100%;
   height: 300px;
   width: 300px;
-  margin-left: 38%;
+  margin-left: 35%;
 }
 
 #video_player { 
@@ -94,12 +97,12 @@ body {
 }
 
 .video_div {
-  height: 100vh;
+  height: 60%;
 }
 
 .director_contact {
-  height: 50vh;
-  margin: -5% 15%;
+  height: 40vh;
+  margin: 10% 8%;
   text-align: center;
 
 }
