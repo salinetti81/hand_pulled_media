@@ -247,7 +247,7 @@ video#bgvid {
 }
 
 #section_3 {
-  margin-top: 400px;
+  /*margin-top: 400px;*/
   height: 100vh;
 }
 
@@ -402,6 +402,7 @@ and (orientation : portrait) {
 
   #section_3 {
     height: auto;
+    margin-top: 400px;
     margin-bottom: 20%;
   }
 
@@ -429,10 +430,12 @@ and (orientation : portrait) {
 
 }
 
+/*phone landscape*/
 @media only screen 
-and (min-device-width : 414px) 
-and (max-device-width : 736px) 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
 and (orientation : landscape) {
+
     .desktop_only {
     display: none;
   }
@@ -493,6 +496,7 @@ and (orientation : landscape) {
 
   #section_3 {
     height: auto;
+    margin-top: 40%;
     margin-bottom: 20%;
   }
 
