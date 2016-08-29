@@ -300,7 +300,7 @@ footer {
 }
 
 footer {
-  height: 50vh;
+  height: 30vh;
 }
 
 footer ul {
@@ -428,6 +428,10 @@ and (orientation : portrait) {
     display: none;
   }
 
+  footer {
+    height: 15vh;
+  }
+
 }
 
 /*phone landscape*/
@@ -522,6 +526,10 @@ and (orientation : landscape) {
     display: none;
   }
 
+  footer {
+    height: 15vh;
+  }
+
 }
 
 /*Tablet*/
@@ -607,6 +615,10 @@ and (max-device-width : 1024px) {
 
   #contact_left span {
     display: none;
+  }
+
+  footer {
+    height: 15vh;
   }
 }
 
