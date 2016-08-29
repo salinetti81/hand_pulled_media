@@ -12,6 +12,7 @@ $(document).ready(function() {
         'slow');
   });
 
+// Save for now; DO NOT DELETE //
   // $("#contact").click(function() {
   //   $('html, body').animate({
   //     scrollTop: $("#section_4").offset().top -50},
@@ -38,6 +39,7 @@ $(document).ready(function() {
 
   });//ends document.ready
 
+// Angular //
 var app = angular.module('HandPulledMedia', []);
 
 app.controller('BodyController', [function($scope,ngBody){ 

@@ -11,7 +11,6 @@ body {
   margin: 0;
 }
 
-
 ul {
     list-style: none;
 }
@@ -48,18 +47,16 @@ a:hover {
 }
 
 /*keyframes for fade in animation*/
-@-webkit-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
-@-moz-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
-@keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+  @-webkit-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+  @-moz-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+  @keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
 
 
 #section_1_div {
   width: 100%;
   height: 350px;
-  /*margin-top: 150px;*/
   margin-right: 7em;
   padding: 20px;
-  /*float: right;*/
 }
 
 #section_1_div h1 {
@@ -97,7 +94,6 @@ a:hover {
   cursor: pointer;
 }
 
-
 #nav_bar {
    -webkit-animation: navFade ease-in 1s;  /* call our keyframe named navFade, use animattion  and repeat it only 1 time */
     -moz-animation: navFade ease-in 1s;
@@ -105,34 +101,34 @@ a:hover {
 }
 
 /*nav bar fade in animation*/
-@keyframes navFade {
+  @keyframes navFade {
     from { opacity: 0; }
     to   { opacity: 1; }
-}
+  }
 
 /* Firefox < 16 */
-@-moz-keyframes navFade {
+  @-moz-keyframes navFade {
     from { opacity: 0; }
     to   { opacity: 1; }
-}
+  }
 
 /* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes navFade {
+  @-webkit-keyframes navFade {
     from { opacity: 0; }
     to   { opacity: 1; }
-}
+  }
 
 /* Internet Explorer */
-@-ms-keyframes navFade {
+  @-ms-keyframes navFade {
     from { opacity: 0; }
     to   { opacity: 1; }
-}
+  }
 
 /* Opera < 12.1 */
-@-o-keyframes navFade {
+  @-o-keyframes navFade {
     from { opacity: 0; }
     to   { opacity: 1; }
-}
+  }
 
 #directors_list a {
   text-decoration: none;
@@ -143,25 +139,24 @@ a:hover {
   margin-left: -45%;
   margin-top: 21em;
   opacity:0;  /* make things invisible upon start */
-    -webkit-animation:fadeIn  .5;  /* call our keyframe named fadeIn, use animattion  and repeat it only 1 time */
-    -moz-animation:fadeIn  .5;
-    animation:fadeIn  .5;
+  -webkit-animation:fadeIn  .5;  /* call our keyframe named fadeIn, use animattion  and repeat it only 1 time */
+  -moz-animation:fadeIn  .5;
+  animation:fadeIn  .5;
 
-    -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
-    -moz-animation-fill-mode:forwards;
-    animation-fill-mode:forwards;
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
 
-    -webkit-animation-duration:2s;
-    -moz-animation-duration:2s;
-    animation-duration:2s;
+  -webkit-animation-duration:2s;
+  -moz-animation-duration:2s;
+  animation-duration:2s;
   -webkit-animation-delay: .5s;
--moz-animation-delay: .5s;
-animation-delay: .5s;
+  -moz-animation-delay: .5s;
+  animation-delay: .5s;
 }
 
 video#bgvid { 
   position: absolute;
-  /*top: 50%;*/
   left: 50%;
   min-width: 100%;
   min-height: 100%;
@@ -176,7 +171,6 @@ video#bgvid {
 
 #section_2 {
   margin-top: 400px;
-  /*margin-left: 5%;*/
 }
 
 #section_2 ul {
@@ -198,7 +192,6 @@ video#bgvid {
 }
 
 #section_2 h5 {
-  /*margin-left: 18%;*/
   position: fixed;
 }
 
@@ -225,30 +218,29 @@ video#bgvid {
 }
 
 .embed-responsive .embed-responsive-item, .embed-responsive embed, .embed-responsive video, .embed-responsive object, .embed-responsive video {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: 90%;
-    height: 90%;
-    border: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 90%;
+  height: 90%;
+  border: 0;
 }
 
 .video_container {
-  /*margin-left: -10%;*/
+
 }
 
 .embed-responsive .embed-responsive-item, .embed-responsive embed, .embed-responsive video, .embed-responsive object, .embed-responsive video {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: 90%;
-    height: 90%;
-    border: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 90%;
+  height: 90%;
+  border: 0;
 }
 .director_video  {
-  /*height: 250px !important;*/
   width: 300px !important;
   display: inline;
 
@@ -274,16 +266,15 @@ video#bgvid {
   margin-top: 100px;
   margin-bottom: 200px;
   height: 300px;
-  /*margin-bottom: 500px;*/
 }
 
+/*Save for now; DON'T DELETE*/
 /*#contact_info {
   margin-left: 10%;
   margin-top: 
 }*/
 
 #contact_info { 
-  /*border-right: 1px solid gray;*/
   width: 350px;
   height: 100px;
   margin: 0 11%;
@@ -292,13 +283,12 @@ video#bgvid {
 
 
 footer {
-  /*margin-bottom: 50px;*/
+  
 }
 
 #scroll_up {
   float: ;
   margin-left: 4em;
-  /*margin-right: 5%;*/
   margin-bottom: 5%;
   margin-top: -10em;
   height: 180px;
@@ -312,11 +302,6 @@ footer {
 footer {
   height: 50vh;
 }
-
-/*footer hr {
-  color: black;
-  height: 2px;
-}*/
 
 footer ul {
   margin-left: 14em; 
@@ -351,171 +336,162 @@ footer li:hover {
 /*MEDIA QUERIES*/
 
 /*SMART PHONE*/
-
 @media only screen and (max-device-width: 480px) {
-    .desktop_only {
-      display: none;
-    }
+  .desktop_only {
+    display: none;
+  }
     
-    #section_1 {
-      background-color: black;
-      height: 130em;
-      width: 100%;
-      margin-bottom: -350px;
-      /*background: url("../img/inverted_logo.jpg") no-repeat center center fixed;*/
-      background-size: cover;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-      /*margin-bottom: 360px;*/
-    }
-
-    #section_1_div ul {
-      margin-left: 25%;
-      margin-top: 22%;
-    }
-
-    a:hover {
-      color:black;
-    }
-
-    #section_1_div li:after {
-      transition: none;
-    }
-
-    #section_1 li:hover:after {
-      width: 0;
-      background: black;
-    }
-
-    #mobile_background {
-      display: inline-block;
-      height: 60em;
-      width: 60em;
-      margin-left: 6%;
-      margin-top: 5%;
-    }  
-
-    #nav_bar {
-      margin-left: -30%;
-      font-size: 2em;
-    }
-
-    #directors_list {
-      /*margin-left: -65%;*/
-      margin-top: -8em;
-      font-size: 2.5em;
-      text-align: center;
-    }
-
-    #directors_list li {
-       display: list-item;
-       padding-bottom: 20px;
-    }
-    
-    #section_4 {
-      margin-bottom: 50%;
-      margin-left: 10%;
-      text-align: 
-    }
-
-    #section_4 .section_title {
-      display: none;
-    }
-
-    #contact_left h4 {
-        font-size: 2.9em;
-    }
-
-    #contact_left span {
-      display: none;
-    }
-
+  #section_1 {
+    background-color: black;
+    height: 130em;
+    width: 100%;
+    margin-bottom: -350px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
-  /*Tablet*/
-  @media (min-width:801px) {
-    .desktop_only {
-      display: none;
-    }
+  #section_1_div ul {
+    margin-left: 25%;
+    margin-top: 22%;
+  }
 
-    #section_1 {
-      background-color: black;
-      height: 130em;
-      width: 100%;
-      margin-bottom: -350px;
-      /*background: url("../img/inverted_logo.jpg") no-repeat center center fixed;*/
-      background-size: cover;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-      /*margin-bottom: 360px;*/
-    }
+  a:hover {
+    color:black;
+  }
 
-    #section_1_div ul {
-      margin-left: 25%;
-      margin-top: 22%;
-    }
+  #section_1_div li:after {
+    transition: none;
+  }
 
-    a:hover {
-      color:black;
-    }
+  #section_1 li:hover:after {
+    width: 0;
+    background: black;
+  }
 
-    #section_1_div li:after {
-      transition: none;
-    }
+  #mobile_background {
+    display: inline-block;
+    height: 60em;
+    width: 60em;
+    margin-left: 6%;
+    margin-top: 5%;
+  }  
 
-    #section_1 li:hover:after {
-      width: 0;
-      background: black;
-    }
+  #nav_bar {
+    margin-left: -30%;
+    font-size: 2em;
+  }
 
-    #mobile_background {
-      display: inline-block;
-      height: 60em;
-      width: 60em;
-      margin-left: 6%;
-      margin-top: 5%;
-    }  
+  #directors_list {
+    margin-top: -8em;
+    font-size: 2.5em;
+    text-align: center;
+  }
 
-    #nav_bar {
-      margin-left: -30%;
-      font-size: 2em;
-    }
+  #directors_list li {
+     display: list-item;
+     padding-bottom: 20px;
+  }
+  
+  #section_4 {
+    margin-bottom: 50%;
+    margin-left: 10%;
+    text-align: 
+  }
 
-    #directors_list {
-      /*margin-left: -65%;*/
-      margin-top: -8em;
-      font-size: 2.5em;
-      text-align: center;
-    }
+  #section_4 .section_title {
+    display: none;
+  }
 
-    #directors_list li {
-       display: list-item;
-       padding-bottom: 20px;
-    }
-    
-    #section_4 {
-      margin-bottom: 50%;
-      margin-left: 10%;
-      text-align: 
-    }
+  #contact_left h4 {
+      font-size: 2.9em;
+  }
 
-    #section_4 .section_title {
-      display: none;
-    }
+  #contact_left span {
+    display: none;
+  }
 
-    #contact_left h4 {
-        font-size: 2.9em;
-    }
+}
 
-    #contact_left span {
-      display: none;
-    }
+/*Tablet*/
+@media (min-width:801px) {
+  .desktop_only {
+    display: none;
+  }
 
-    
+  #section_1 {
+    background-color: black;
+    height: 130em;
+    width: 100%;
+    margin-bottom: -350px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  #section_1_div ul {
+    margin-left: 25%;
+    margin-top: 22%;
+  }
+
+  a:hover {
+    color:black;
+  }
+
+  #section_1_div li:after {
+    transition: none;
+  }
+
+  #section_1 li:hover:after {
+    width: 0;
+    background: black;
+  }
+
+  #mobile_background {
+    display: inline-block;
+    height: 60em;
+    width: 60em;
+    margin-left: 6%;
+    margin-top: 5%;
+  }  
+
+  #nav_bar {
+    margin-left: -30%;
+    font-size: 2em;
+  }
+
+  #directors_list {
+    margin-top: -8em;
+    font-size: 2.5em;
+    text-align: center;
+  }
+
+  #directors_list li {
+     display: list-item;
+     padding-bottom: 20px;
+  }
+  
+  #section_4 {
+    margin-bottom: 50%;
+    margin-left: 10%;
+    text-align: 
+  }
+
+  #section_4 .section_title {
+    display: none;
+  }
+
+  #contact_left h4 {
+      font-size: 2.9em;
+  }
+
+  #contact_left span {
+    display: none;
+  }
 }
 
 
