@@ -99,8 +99,11 @@ body {
 }
 
 .video_div {
-  height: 60%;
+  /*height: 60%;*/
+}
 
+.video_div h3 {
+  margin: 10% 35%;
 }
 
 .embed-responsive {
