@@ -37,7 +37,7 @@ body {
 }
 
 #director_title {
-  margin-top: 10%;
+  margin-top: 5%;
   height: 100vh;
 }
 
@@ -50,6 +50,11 @@ body {
   width: 80%;
   margin-left: 10%;
 }
+/*
+#director_title p:first-of-type:first-letter{
+  font-size: 2em;
+}*/
+
 
 
 #director_title img {
