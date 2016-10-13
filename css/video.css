@@ -64,10 +64,19 @@ body {
   margin-left: 35%;
 }
 
+.container {
+   padding-right: 15px;
+   padding-left: 15px;
+   /*margin-right: auto;*/
+   margin-left: 9%;
+   max-width: 78%;
+   overflow:hidden;
+   min-height:0px !important;
+}
+
 .embed-responsive {
-  width: 90%;
-  margin-left: 5%;
-  margin-top: -3%;
+  margin-left: ;
+  margin-top: -2%;
 }
 
 .director_contact {
