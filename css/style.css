@@ -19,11 +19,11 @@ ul {
 
 a {
   text-decoration: none !important;
-  color: white;
+  color: #CCCCCC;
 }
 
 a:hover {
-  color:white;
+  color:#CCCCCC;
 }
 
 .mobile_only {
@@ -72,7 +72,7 @@ a:hover {
 }
 
 #section_1_div li {
-  color: white;
+  color: #CCCCCC;
   display: inline-block;
   padding-left: 5%;
   font-size: 1.2em;
@@ -89,7 +89,7 @@ a:hover {
 
 #section_1 li:hover:after {
   width: 100%;
-  background: white;
+  background: #CCCCCC;
 }
 
 #section_1 li:hover {
@@ -134,7 +134,7 @@ a:hover {
 
 #directors_list a {
   text-decoration: none;
-  color: white;
+  color: #CCCCCC;
 }
 
 #directors_list {

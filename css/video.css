@@ -2,7 +2,7 @@
 
 body {
   background-color: black;
-  color: white;
+  color: #CCCCCC;
   height: 1000px;
 }
 
@@ -10,11 +10,12 @@ body {
   float: ;
   height: 180px;
   width: 180px;
+  margin-left: 2%;
 }
 
 #director_nav a {
   text-decoration: none;
-  color: white;
+  color: #CCCCCC;
 }
 
 #director_nav ul {
@@ -32,12 +33,12 @@ body {
 }
 
 .active {
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #CCCCCC;
 }
 
 #director_title {
-  height: ;
-  /*margin-bottom: -10%;*/
+  margin-top: 10%;
+  height: 100vh;
 }
 
 #director_title h2 {
@@ -45,11 +46,11 @@ body {
 }
 
 #director_title p {
-  width: 60%;
-  
-  margin: 2em 10em 3em 10em;
-  font-size: 2em;
+  font-size: 1.5em;
+  width: 80%;
+  margin-left: 10%;
 }
+
 
 #director_title img {
   border-radius: 100%;
@@ -58,58 +59,10 @@ body {
   margin-left: 35%;
 }
 
-#video_player { 
-  display: table; line-height: 0;
-  font-size: 0; background: #000;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-#video_container { 
-  position: relative;
-}
-#video_player div, #video_player figcaption { 
-  display: table-cell;
-  vertical-align: top; 
-}
-#video_container video { 
-  position: absolute; 
-  display: block;
-  width: 100%;
-  height: 100%;
-  top: 0;
-}
-#video_player figcaption { width: 25%; }
-#video_player figcaption a { display: block; }
-#video_player figcaption a { 
-  opacity: .5;
-  transition: 1s opacity; 
-}
-#video_player figcaption a img, figure video { 
-  width: 100%; height: auto; 
-}
-#video_player figcaption a.currentvid, #video_player figcaption a:hover, #video_player figcaption a:focus { opacity: 1; }
-@media (max-width: 700px) {
-  #video_player video, #video_player figcaption { 
-    display: table-row; 
-  }
-#video_container { padding-top: 56.25%; }
-#video_player figcaption a { 
-  display: inline-block; width: 33.33%; 
-}
-}
-
-.video_div {
-  /*height: 60%;*/
-}
-
-.video_div h3 {
-  margin: 10% 35%;
-}
-
 .embed-responsive {
   width: 90%;
   margin-left: 5%;
-  
+  margin-top: -3%;
 }
 
 .director_contact {
@@ -120,7 +73,6 @@ body {
 }
 .director_contact ul {
   list-style: none;
-
 }
 
 .director_contact li {
