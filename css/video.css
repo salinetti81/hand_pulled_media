@@ -38,7 +38,7 @@ body {
 
 #director_title {
   margin-top: 5%;
-  height: 100vh;
+  height: 90vh;
 }
 
 #director_title h2 {
@@ -47,8 +47,8 @@ body {
 
 #director_title p {
   font-size: 1.5em;
-  width: 80%;
   margin-left: 10%;
+  max-width: 75%;
 }
 /*
 #director_title p:first-of-type:first-letter{
