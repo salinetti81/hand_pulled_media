@@ -6,6 +6,11 @@ body {
   height: 1000px;
 }
 
+a {
+  text-decoration: none;
+  color: #CCCCCC
+}
+
 #director_nav img {
   float: ;
   height: 180px;
@@ -36,9 +41,24 @@ body {
   border-bottom: 2px solid #CCCCCC;
 }
 
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: 9%;
+  max-width: 78%;
+  overflow:hidden;
+  min-height:0px !important;
+}
+
+.embed-responsive {
+  margin-left: ;
+  margin-top: -2%;
+}
+
 #director_title {
   margin-top: 5%;
-  height: 90vh;
+  height: 80vh;
+
 }
 
 #director_title h2 {
@@ -50,12 +70,6 @@ body {
   margin-left: 10%;
   max-width: 75%;
 }
-/*
-#director_title p:first-of-type:first-letter{
-  font-size: 2em;
-}*/
-
-
 
 #director_title img {
   border-radius: 100%;
@@ -64,24 +78,9 @@ body {
   margin-left: 35%;
 }
 
-.container {
-   padding-right: 15px;
-   padding-left: 15px;
-   /*margin-right: auto;*/
-   margin-left: 9%;
-   max-width: 78%;
-   overflow:hidden;
-   min-height:0px !important;
-}
-
-.embed-responsive {
-  margin-left: ;
-  margin-top: -2%;
-}
-
 .director_contact {
-  height: 40vh;
-  margin: 10% 8%;
+  height: 15vh;
+  margin: -5% 8%;
   text-align: center;
 
 }
@@ -91,6 +90,17 @@ body {
 
 .director_contact li {
   font-size: 1.5em;
+}
+
+.director_contact a:link, a:visited {
+  color: #CCCCCC;
+  text-decoration: none;
+}
+
+.director_contact a:hover {
+  text-decoration: none;
+  color: white;
+  transition: .5s;
 }
 
 
