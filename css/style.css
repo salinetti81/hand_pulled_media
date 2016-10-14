@@ -283,11 +283,6 @@ video#bgvid {
   padding-top: 10px;
 }
 
-
-footer {
-  
-}
-
 #scroll_up {
   float: ;
   margin-left: 4em;
@@ -338,7 +333,6 @@ footer li:hover {
 /*MEDIA QUERIES*/
 
 /*SMART PHONE*/
-
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px) 
