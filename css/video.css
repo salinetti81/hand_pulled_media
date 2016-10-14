@@ -12,10 +12,9 @@ a {
 }
 
 #director_nav img {
-  float: ;
   height: 180px;
   width: 180px;
-  margin-left: 2%;
+  margin-left: 4%;
 }
 
 #director_nav a {
@@ -42,23 +41,19 @@ a {
 }
 
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-left: 9%;
+  margin-left: 11%;
   max-width: 78%;
   overflow:hidden;
   min-height:0px !important;
 }
 
 .embed-responsive {
-  margin-left: ;
   margin-top: -2%;
 }
 
 #director_title {
   margin-top: 5%;
   height: 80vh;
-
 }
 
 #director_title h2 {
@@ -67,7 +62,7 @@ a {
 
 #director_title p {
   font-size: 1.5em;
-  margin-left: 10%;
+  margin-left: 12%;
   max-width: 75%;
 }
 
@@ -80,9 +75,9 @@ a {
 
 .director_contact {
   height: 15vh;
-  margin: -5% 8%;
+  margin: 5% 8%;
   text-align: center;
-
+  position: static;
 }
 .director_contact ul {
   list-style: none;
@@ -103,9 +98,45 @@ a {
   transition: .5s;
 }
 
+/*Media Queries*/
+/*Smaller Browser Window*/
+@media (max-width: 875px) { 
+  .director_contact {
+    margin-top: 10%;
+  }
+}
+
+@media (max-width: 765px) { 
+  .director_contact {
+    margin-top: 20%;
+  }
+}
+
+@media (max-width: 720px) {
+  .director_contact {
+    margin-top: 40%;
+  }
+}
 
 
+@media (max-width: 650px) {
+  .director_contact {
+    margin-top: 50%;
+  }
+}
 
+
+@media (max-width: 550px) {
+  .director_contact {
+    margin-top: 150%;
+  }
+}
+
+@media (max-width: 420px) {
+  .director_contact {
+    margin-top: 200%;
+  }
+}
 
 
 
